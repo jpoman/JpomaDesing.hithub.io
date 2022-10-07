@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="Estilos/EstilosIndex.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<title>Mi Portafolio Personal</title>
+</head>
+<body>
+	<header>
+		<h1>JPomaDesing</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#">Inicio</a></li>
+			<li><a href="#">Quien soy</a></li>
+			<li><a href="MisTrabajos.html">Mis Trabajos</a></li>
+			<li><a href="Registrate.html">Registrate</a></li>
+			<li><a href="Contactame.html">Contactame</a></li>
+		</ul>
+	
+		<div class="Oculto">
+			<i class="fa fa-bars" aria-hidden="true"></i> Menu
+		</div>
+	</nav>
+
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+	<script >
+		$(".Oculto").on('click', function(){
+			$("nav ul").toggle('slow');
+		})
+	</script>
+
+</body>
+</html>
